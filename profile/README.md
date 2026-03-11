@@ -1,12 +1,16 @@
-## Hi there 👋
+## Git standarder for SEP4
 
-<!--
+# Branches og commit beskeder skrives på engelsk.
 
-**Here are some ideas to get you started:**
+# Hver applikation har sit eget repository (IoT, MAL, WEB)
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+# Når et medlem af en subgruppe laver en pull request, skal et andet medlem af subgruppen reviewe den
+
+# En git branch bør starte med en kategori. Vælg en af disse: feature, bugfix, eller test.
+- feature er for at tilføje, refactor eller fjerne en funktion
+- bugfix er for fejlrettelse og bugfixing 
+- test er for tilføjelse eller ændring af tests i koden (unittests, integrationstest i en main metode osv.)
+- Eksempel: "kategori"/"kort beskrivelse" -> feature/add-home-button, bugfix/broken-home-button
+
+# Commit besked standarder følger nedenstående artikel
+https://cbea.ms/git-commit/
